@@ -1,14 +1,14 @@
 name: mbasics
-version: 'dev0.1.0'
+version: '0.3.0'
 main: net.manczak.mbasics.mbasics
 api-version: 1.18
 authors: [ jakubmanczak ]
 website: https://manczak.net
 commands:
-#  msg:
-#    description: Message someone.
-#    usage: /msg <player> <message>
-#    aliases: [message, tell, t, pm, dm]
+  msg:
+    description: Message someone.
+    usage: /msg <player> <message>
+    aliases: [message, m, tell, t, pm, dm]
 #  r:
 #    description: Reply to the most recent message.
 #    usage: /r <message>
@@ -25,3 +25,11 @@ commands:
     description: Feeds the target.
     usage: /feed <player>
     permission: mbasics.feed
+  more:
+    description: Gives more of held item.
+    usage: /more
+    permission: mbasics.more
+#  repair:
+#    description: Repairs held item.
+#    usage: /repair
+#    permission: mbasics.repair
